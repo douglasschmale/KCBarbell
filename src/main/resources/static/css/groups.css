@@ -1,0 +1,26 @@
+body{
+	/* background: url(https://nebula.wsimg.com/a1579a6a5917cb20edd82650b9b82402?AccessKeyId=9F9F5D4A188D0CAF9AD3&disposition=0&alloworigin=1); */
+	background: url("KCMap.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Oxygen',sans-serif;
+    color: rgb(20, 20, 20);
+    /* color: red;  */
+}
+html{
+	height: 100%;
+}
+#content {
+	background-color: #f8f8f8;
+	font-weight: 700;
+    color: rgb(48, 47, 47);
+	text-align: center;
+    padding-top: 10%;
+    font-size: 1em;
+}
+
+hr{
+	width:400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: rgba(0,0,0,0.2);
+}
