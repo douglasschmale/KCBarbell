@@ -1,0 +1,65 @@
+Exercise generator
+
+Users >many-to-many> Groups
+Groups have one instructor, one workout, max students per group (set by instructor/admin)
+
+Groups> one-to-many > workouts (one workout per group, many groups can have the same workout)
+
+Instructors (admins) can assign themselves to group times, generate workouts for their groups, or chose an existing workout.
+
+
+----------------
+"SLaM!" Strength, Looks, Movement!
+Select menus: Strength (Lift), Looks (Circuit), Movement (Conditioning)
+
+(10 minute warm-up for strength movement)
+
+STRENGTH (20 minute running clock):
+Squat
+Front Squat
+Deadlift
+Sumo Deadlift
+Power Clean
+Bench
+Incline Bench
+Standing Press
+Weighted chin-ups
+Heavy rows
+
+LOOKS (10-20 minute running clock):
+
+DB bench
+DB incline Bench
+DB arnold press
+DB Cuban Press
+DB seated cleans
+DB rows
+Yates rows
+Chins
+Lunges
+Front Squats
+GHRs/back extensions
+
+
+Movement (10-20 minutes)Format: rounds with rest, AMRAP, "sprint":
+
+Squat cleans
+Burpees
+Bear Crawls
+thruster
+lunge
+renegade row
+Mountain climber
+Swing
+Snatch
+Goblet squat
+Push-up
+Air squat
+Jumping lunges
+
+
+Exercise family: compound exercise, active movement, support
+Implements: dumbbells, kettlebells, barbells, none
+Time complexity: 10-20
+
+
